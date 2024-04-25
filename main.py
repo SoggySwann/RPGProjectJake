@@ -1,12 +1,12 @@
 '''
-AUTHOR: JAKE SWANN
-DATE: 4/11/24
-ASSIGNMENT: LAB 09
-COURSE: CPSC 1051
-LAB SECTION: 001
-LAB PARTNER: BRANDON EWANICK
+LINK: https://github.com/SoggySwann/RPGProjectJake
 
-DESCRIPTION: Create a text-based adventure map using classes and exception handling to navigate through a house.
+AUTHOR: JAKE SWANN
+DATE: 4/25/24
+ASSIGNMENT: PROJECT 2
+COURSE: CPSC 1050
+
+DESCRIPTION: Using classes, branches, loops, methods, etc., I designed a map based navigation game where the user is a hobo. They navigate and use items to gain helath and win if they go to 100 health. 
 '''
 
 class ExitNotFoundError(Exception):    
