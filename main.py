@@ -12,7 +12,7 @@ DESCRIPTION: Using classes, branches, loops, methods, etc., I designed a map bas
 class ExitNotFoundError(Exception):    # handles when room isnt found
     def __init__(self, room_name, message="Location is too far away"):   #constructor method for the class 
         self.room_name = room_name # assigning room name
-        self.message = message #assign messgae of defualt message
+        self.message = message #assign messgae of defualt messages
 
     def __str__(self):
         return f"{self.room_name} -> {self.message}"  #formatted string
